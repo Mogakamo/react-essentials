@@ -14,18 +14,12 @@ function Main() {
   )
 }
 
-function Footer () {
-  return (
-    <p>It's true</p>
-  )
-}
-
 function App() {
   return (
     <div className="App">
       <Header />
-      <Main />
-      <Footer />
+      <Main
+      <h3>Footer</h3>
     </div>
   );
 }

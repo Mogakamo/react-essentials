@@ -14,12 +14,6 @@ function Main() {
   )
 }
 
-function Footer () {
-  return (
-    <p>It's true</p>
-  )
-}
-
 function App() {
   return (
     <div className="App">

@@ -15,9 +15,7 @@ function Main() {
 }
 
 function Footer () {
-  return (
-    <p>It's true</p>
-  )
+  return 
 }
 
 function App() {
