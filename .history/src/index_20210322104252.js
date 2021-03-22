@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 
 ReactDOM.render(
-  React.createElement("h1", null, "Heyy Everyone!!!")
+  React
   document.getElementById('root')
 );
 
