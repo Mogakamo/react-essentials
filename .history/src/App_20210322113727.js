@@ -13,7 +13,7 @@ function Main(props) {
       <p>We serve the most {props.adjective} foods here.</p>
         <ul>
           {props.dishes.map((dish) => { 
-            <li>{dish}</li>
+            <li>{</li>
             })}
         </ul>
     </section>

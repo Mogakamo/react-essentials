@@ -12,9 +12,7 @@ function Main(props) {
     <section>
       <p>We serve the most {props.adjective} foods here.</p>
         <ul>
-          {props.dishes.map((dish) => { 
-            <li>{dish}</li>
-            })}
+          {props.dishes.map((dish) => { console.log(dish)})}
         </ul>
     </section>
   )
