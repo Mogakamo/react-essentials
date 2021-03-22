@@ -17,7 +17,7 @@ function Main(props) {
 
 function Footer (props) {
   return (
-    <p>&copy; {props.year} </p>
+    <p>&</p>
   )
 }
 

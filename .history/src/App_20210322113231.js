@@ -15,9 +15,9 @@ function Main(props) {
   )
 }
 
-function Footer (props) {
+function Footer () {
   return (
-    <p>&copy; {props.year} </p>
+    <p>It's true</p>
   )
 }
 
