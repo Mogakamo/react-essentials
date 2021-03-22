@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from "./App"
+
 
 ReactDOM.render(
   React.createElement(
-    <App />,
+    "ul",
+    null,
+    React.createElement("li", null, "Monday")
+  ),
   document.getElementById("root")
-  )
 );
-
 

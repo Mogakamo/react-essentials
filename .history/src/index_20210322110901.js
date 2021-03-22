@@ -5,9 +5,10 @@ import App from "./App"
 
 ReactDOM.render(
   React.createElement(
-    <App />,
+    "ul",
+    null,
+    React.createElement("li", null, "Monday")
+  ),
   document.getElementById("root")
-  )
 );
-
 
