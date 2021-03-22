@@ -7,10 +7,10 @@ function Header(props) {
   )
 }
 
-function Main(props) {
+function Main() {
   return (
     <section>
-      <p>We serve the most {props.adjective} foods here.</p>
+      <p>We serve the most {} foods here.</p>
     </section>
   )
 }
