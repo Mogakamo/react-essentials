@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 ReactDOM.render(
-  React.createElement("h1", 
-    {style: {color: "blue"}}, "Heyy Everyone!!!"),
+  React.createElement("h1", {}, "Heyy Everyone!!!"),
   document.getElementById("root")
 );
 
