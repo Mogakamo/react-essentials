@@ -6,7 +6,7 @@ ReactDOM.render(
   React.createElement(
     "ul",
     null,
-    React.createElement("li", null, "Monday")
+    React.createElement("li", null, "")
   ),
   document.getElementById("root")
 );
