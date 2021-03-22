@@ -3,7 +3,7 @@ import './App.css';
 function Header(props) {
   console.log(props);
   return (
-  <h1>{props.name} Kitchen</h1>
+  <h1>Eve's Kitchen</h1>
   )
 }
 
@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <Header 
-          name="Cindy"
+          name="Amos"
            />
       <Main />
       <Footer />

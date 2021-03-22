@@ -1,9 +1,8 @@
 import './App.css';
 
 function Header(props) {
-  console.log(props);
   return (
-  <h1>{props.name} Kitchen</h1>
+  <h1>Eve's Kitchen</h1>
   )
 }
 
@@ -24,9 +23,7 @@ function Footer () {
 function App() {
   return (
     <div className="App">
-      <Header 
-          name="Cindy"
-           />
+      <Header />
       <Main />
       <Footer />
     </div>
