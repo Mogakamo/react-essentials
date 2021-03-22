@@ -3,7 +3,6 @@ import './App.css';
 function Header() {
   return (
   <h1>Eve's Kitchen</h1>
-  )
 }
 
 function App() {
