@@ -22,13 +22,7 @@ function Footer (props) {
 }
 
 
-const dishes = [
-  "MAcaroni and Cheese",
-  "Salmon",
-  "Tofu with Vegetables"
-];
-
-dishes.map((dish) => { console.log(dish)})
+const dishes = []
 
 function App() {
   return (

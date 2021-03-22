@@ -28,7 +28,7 @@ const dishes = [
   "Tofu with Vegetables"
 ];
 
-dishes.map((dish) => { console.log(dish)})
+dishes.map((dishes) => { console.log(dish)})
 
 function App() {
   return (
