@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 ReactDOM.render(
-  React.createElement("h1", null, "Heyy Everyone!!!"),
-  document.getElementById("root")
+  React.createElement("h1", null, "Heyy Everyone!!!")
+  document
 );
 
