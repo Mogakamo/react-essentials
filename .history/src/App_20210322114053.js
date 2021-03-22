@@ -1,6 +1,5 @@
 import './App.css';
 
-
 function Header(props) {
   console.log(props);
   return (
@@ -9,22 +8,16 @@ function Header(props) {
 }
 
 function Main(props) {
-  const dishes = [
-  "MAcaroni and Cheese",
-  "Salmon",
-  "Tofu with Vegetables"
-];
   return (
     <section>
       <p>We serve the most {props.adjective} foods here.</p>
         <ul>
-          {dishes.map((dish) =>  
+          {props.dishes.map((dish) =>  
             (<li>{dish}</li>)
             )}
         </ul>
     </section>
   )
-  
 }
 
 function Footer (props) {
@@ -34,7 +27,11 @@ function Footer (props) {
 }
 
 
-
+const dishes = [
+  "MAcaroni and Cheese",
+  "Salmon",
+  "Tofu with Vegetables"
+];
 
 
 
